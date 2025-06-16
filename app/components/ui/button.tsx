@@ -24,16 +24,16 @@ export function Button({
   className = '',
 }: ButtonProps) {
   const baseClasses =
-    'inline-flex items-center justify-center py-2.5 px-5 font-bold tracking-[1px] text-[13px] uppercase  transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2';
+    'inline-flex items-center justify-center py-2.5 px-5 font-bold tracking-[1px] text-[13px] uppercase  transition-colors ';
 
   const variantClasses = {
-    primary: 'bg-black text-white hover:bg-[#4C4C4C] focus:ring-black',
+    primary: 'bg-black text-white hover:bg-[#4C4C4C]',
     secondary:
       'bg-primary text-white hover:bg-[#FBAF85] hover:text-white focus:ring-primary',
     outline:
-      'border-1 border-black text-black hover:bg-black hover:text-white focus:ring-black',
+      'border-1 border-black text-black hover:bg-black hover:text-white ',
     ghost:
-      'text-primary hover:bg-primary-light hover:text-white focus:ring-primary',
+      'text-primary hover:bg-primary-light hover:text-white ',
   };
 
   const sizeClasses = {
